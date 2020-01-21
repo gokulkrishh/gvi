@@ -1,0 +1,40 @@
+{
+	"name": "gvi",
+	"version": "1.0.0",
+	"description": "Get version information of a npm package.",
+	"bin": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=10",
+		"npm": ">=6.8.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"npm package information",
+		"npm package version",
+		"get package information",
+		"gvi"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gokulkrishh/gvi.git"
+	},
+	"author": "Gokulakrishnan Kalaikovan <krishnangokul9@gmail.com> (gokul.site)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gokulkrishh/gvi/issues"
+	},
+	"homepage": "https://github.com/gokulkrishh/gvi#readme",
+	"dependencies": {
+		"cli-table": "^0.3.1",
+		"node-fetch": "^2.6.0",
+		"ora": "^4.0.3",
+		"meow": "^6.0.0"
+	}
+}
