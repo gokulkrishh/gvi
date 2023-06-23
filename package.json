@@ -33,7 +33,7 @@
 	"homepage": "https://github.com/gokulkrishh/gvi#readme",
 	"dependencies": {
 		"cli-table": "^0.3.1",
-		"meow": "^6.0.0",
+		"meow": "^12.0.1",
 		"node-fetch": "^2.6.0",
 		"ora": "^4.0.3"
 	}
